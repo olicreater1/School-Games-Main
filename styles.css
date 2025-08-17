@@ -94,3 +94,8 @@ h1, h2, h3 {
     margin-bottom: auto;
     color: #000;
 }
+.gamecontainer-div {
+    margin: auto;
+    width: 65vw;
+    height: 50vh;
+}
