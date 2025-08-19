@@ -6,9 +6,13 @@ body {
   background: #313131;
   color: #ffffff;
 }
-h1, h2, h3, .centered h1 {
+h1, h2, h3 {
   font-family: 'Quicksand';
   font-weight: 500;
+}
+.pagetitle {
+    font-size: 12vh;
+    text-align: top, center;
 }
 .maincontainer {
     display: flex;
@@ -46,6 +50,7 @@ h1, h2, h3, .centered h1 {
     position: top;
     flex: 0 0 70%;
     min-height: 90vh;
+    height: fit-content;
     background: #4d4d4d;
     color: #ffffff;
     border-top-left-radius: 32px;
@@ -89,4 +94,14 @@ h1, h2, h3, .centered h1 {
     margin-top: auto;
     margin-bottom: auto;
     color: #000;
+}
+.gamecontainer-div {
+    margin-top: auto;
+    margin-bottom: 12vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+    max-width: 65vw;
+    max-height: 36.5625vh;
 }
