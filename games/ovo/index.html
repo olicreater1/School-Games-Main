@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ovo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      html,
+      body {
+        background: #000;
+        color: #fff;
+        overflow: hidden;
+        touch-action: none;
+        -ms-touch-action: none;
+      }
+
+      canvas {
+        touch-action-delay: none;
+        touch-action: none;
+        -ms-touch-action: none;
+      }
+    </style>
+    <link href="/animate.css" rel="stylesheet" type="text/css" />
+    <link href="/hmmg_layoutTransition.css" rel="stylesheet" type="text/css" />
+    <link href="jquery.gritter.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <div id="c2canvasdiv">
+      <!-- The canvas the project will render to. If you change its ID, don't forget to change the ID the runtime looks for in the jQuery events above (ready() and cr_sizeCanvas()). -->
+      <canvas id="c2canvas" width="640" height="640">
+        <!-- This text is displayed if the visitor's browser does not support HTML5. You can change it, but it is a good idea to link to a description of a browser and provide some links to download some popular HTML5-compatible browsers. -->
+        <h1>
+          Your browser does not appear to support HTML5. Try upgrading your
+          browser to the latest version.><br />
+          <a href="http://www.google.com/chrome/">Google Chrome</a><br />
+        </h1>
+      </canvas>
+    </div>
+    <!-- Pages load faster with scripts at the bottom -->
+    <!-- Construct 2 exported games require jQuery. -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/GameAnalytics.js"></script>
+    <script src="js/Tween.js"></script>
+    <script src="js/html2canvas.min.js"></script>
+    <script src="js/jquery.gritter.js"></script>
+    <script src="js/howler.js"></script>
+    <!-- The runtime script. You can rename it, but don't forget to rename the reference here as well. This file will have been minified and obfuscated if you enabled "Minify script" during export. -->
+    <script src="js/c2runtime.js"></script>
+    <script src="js/inl.js"></script>
+    <script src="storage.js"></script>
+  </body>
+</html>
