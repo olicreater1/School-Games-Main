@@ -11,7 +11,7 @@ h1, h2, h3 {
   font-weight: 500;
 }
 .pagetitle {
-    font-size: 12vh;
+    font-size: 10vh;
     text-align: top, center;
 }
 .maincontainer {
@@ -106,13 +106,16 @@ h1, h2, h3 {
     max-height: 60vh;
 }
 .gameimage-image {
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 24px;
-    padding: 1.67vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
 }
 .gameimage-image:hover {
     box-shadow: 0 0 12px rgba(0,0,0,0.2);
