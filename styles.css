@@ -64,7 +64,7 @@ h1, h2, h3 {
     text-align: center;
 }
 .centerAd-div {
-    position: fixed;
+    position: absolute;
     min-height: 10vh;
     min-width: 70vw;
     bottom: 0;
