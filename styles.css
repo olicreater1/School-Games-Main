@@ -97,13 +97,21 @@ h1, h2, h3 {
 }
 .gamecontainer-div {
     margin-top: auto;
-    margin-bottom: 12vh;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
     height: fit-content;
     max-width: 65vw;
     max-height: 60vh;
+}
+.gamecontainer-div-ruffle {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width:800px;
+    height: 600px;
 }
 .gameimage-image {
     width: 15vw;
